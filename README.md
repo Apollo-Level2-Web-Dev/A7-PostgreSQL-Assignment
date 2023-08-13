@@ -153,3 +153,7 @@ Prepare the SQL code for table creation, sample data insertion, and the seven qu
 12. Explain the concept of a PostgreSQL view and how it differs from a table.
 
 **Provide detailed answers to these questions in your assignment GitHub repository's README file as part of your assignment submission.**
+
+### Deadline: 
+- 60 Marks (17 August, 2023 Until 11.59PM )
+- 50 Marks (18 August, 2023 Until 11.59PM )
