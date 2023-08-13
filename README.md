@@ -19,6 +19,9 @@ Create a **"students"** table with the following fields:
 - `student_name`: String, representing the student's name.
 - `age`: Integer, indicating the student's age.
 - `email`: String, storing the student's email address.
+- `frontend_mark`: Integer, indicating the student's frontend assignment marks.
+- `backend_mark`: Integer, indicating the student's backend assignment marks.
+- `status`: String, storing the student's result status.
 
 Create a **"courses"** table with the following fields:
 
@@ -36,22 +39,23 @@ Create an **"enrollment"** table with the following fields:
 
 - Insert the following sample data into the **"students"** table:
 
-| student_id | student_name | age | email             |
-|------------|--------------|-----|-------------------|
-| 1          | Alice        | 22  | alice@example.com|
-| 2          | Bob          | 21  | bob@example.com  |
-| 3          | Charlie      | 23  | charlie@example.com|
-| 4          | David        | 20  | david@example.com|
-| 5          | Eve          | 24  | newemail@example.com|
-| 6          | Rahim        | 23  | rahim@gmail.com  |
+| student_id | student_name | age | email             | frontend_mark   | backend_mark  | status   |
+|------------|--------------|-----|-------------------|-----------------|---------------|----------|
+| 1          | Alice        | 22  | alice@example.com| 55               | 57            | NULL     |
+| 2          | Bob          | 21  | bob@example.com  | 34               | 45            | NULL     |
+| 3          | Charlie      | 23  | charlie@example.com| 60             | 59            | NULL     |
+| 4          | David        | 20  | david@example.com| 40               | 49            | NULL     |
+| 5          | Eve          | 24  | newemail@example.com| 45            | 34            | NULL     |
+| 6          | Rahim        | 23  | rahim@gmail.com  | 46               | 42            | NULL     |
 
 - Insert the following sample data into the **"courses"** table:
 
 | course_id | course_name    | credits |
 |-----------|----------------|---------|
-| 1         | Programming    | 3       |
-| 2         | Algorithms     | 4       |
+| 1         | Next.js    | 3       |
+| 2         | React.js     | 4       |
 | 3         | Databases      | 3       |
+| 4         | Prisma         | 3        |
 
 
 - Insert the following sample data into the **"enrollment"** table:
@@ -73,10 +77,13 @@ Insert a new student record with the following details:
 - Name: YourName
 - Age: YourAge
 - Email: YourEmail
+- Frontend-Mark: YourMark
+- Backend-Mark: YourMark
+- Status: NULL
 
 
 ### Query 2:
-Retrieve the names of all students who are enrolled in the course titled 'Programming'.
+Retrieve the names of all students who are enrolled in the course titled 'Next.js'.
 
 **Sample Output:**
 | student_name |
@@ -85,7 +92,7 @@ Retrieve the names of all students who are enrolled in the course titled 'Progra
 | Bob        |
 
 ### Query 3:
-Update the email address of the student with the highest age to 'newemail@ph.com'.
+Update the status of the student with the height total mark to 'Awarded'
 
 ### Query 4:
 Delete all courses that have no students enrolled.
@@ -105,8 +112,8 @@ Retrieve the course names and the number of students enrolled in each course.
 **Sample Output:**
 | course_name    | students_enrolled |
 |----------------|-------------------|
-| Programming    | 2                 |
-| Algorithms     | 2                 |
+| Next.js        | 2                 |
+| React.js       | 2                 |
 
 
 ### Query 7:
