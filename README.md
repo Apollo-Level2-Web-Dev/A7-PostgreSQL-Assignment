@@ -157,3 +157,5 @@ Prepare the SQL code for table creation, sample data insertion, and the seven qu
 ### Deadline: 
 - 60 Marks (17 August, 2023 Until 11.59PM )
 - 50 Marks (18 August, 2023 Until 11.59PM )
+
+**Important Note:** *Attendance in this assignment is obligatory for all participants. As a follow-up, there will be two further assignments involving Prisma and PostgreSQL backends, specifically tailored for individuals with aspirations of becoming proficient full-stack developers. Approach this task with a thorough perspective and a commitment to achieving excellence. Wishing you the best of luck in your endeavors.*
