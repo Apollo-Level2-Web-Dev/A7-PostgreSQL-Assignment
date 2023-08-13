@@ -92,7 +92,7 @@ Retrieve the names of all students who are enrolled in the course titled 'Next.j
 | Bob        |
 
 ### Query 3:
-Update the status of the student with the height total mark to 'Awarded'
+Update the status of the student with the highest total (frontend_mark + backend_mark) mark to 'Awarded'
 
 ### Query 4:
 Delete all courses that have no students enrolled.
