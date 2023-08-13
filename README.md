@@ -98,7 +98,7 @@ Update the status of the student with the highest total (frontend_mark + backend
 Delete all courses that have no students enrolled.
 
 ### Query 5:
-Retrieve the names of students in batches of 2, starting from the 3rd student.
+Retrieve the names of students using a limit of 2 per batch, starting from the 3rd student.
 
 **Sample Output:**
 | student_name |
