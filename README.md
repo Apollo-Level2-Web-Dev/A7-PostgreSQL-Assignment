@@ -138,6 +138,9 @@ Retrieve the names of students whose email addresses contain 'example.com'.
 
 Prepare the SQL code for table creation, sample data insertion, and the seven queries in a text document or your preferred format. Include comments explaining each query's purpose and functionality. **Save your document as "PostgreSQL_Assignment.sql" or any other appropriate name.**
 
+## Private repository link
+[https://classroom.github.com/a/vNu-py3I](https://classroom.github.com/a/vNu-py3I)
+
 ## Questions (Answer 10 Questions):
 1. What is PostgreSQL?
 2. What is the purpose of a database schema in PostgreSQL?
